@@ -2,23 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>git pro</title>
+    <title>git-registr</title>
 
 </head>
 <body>
 
-<div class = "login">
-    <h1>შესვლა</h1>
-    <form action="/login" method="post">
+<div class = "registration">
+    <h1>რეგისტრაცია</h1>
+    <form action="/registration" method="post">
         <input type="text" name="E-mail" placeholder="შეიყვანე ელ. ფოსტა" required
                oninvalid="this.setCustomValidity('ელ.ფოსტა შეყვანილი არ არის')"
                oninput="this.setCustomValidity('')">
         <input type="text" name="E-mail" placeholder="შეიყვანე პაროლი" required
-                oninvalid="this.setCustomValidity('პაროლი შეყვანილი არ არის')"
-                oninput="this.setCustomValidity('')">
+               oninvalid="this.setCustomValidity('პაროლი შეყვანილი არ არის')"
+               oninput="this.setCustomValidity('')">
         <button type="submit"> შესვლა </button>
     </form>
-    <p> არ ხარ დარეგისტრირებული? <a href='/registration'> რეგისტრაცია </a> </p>
+    <p> უკვე ხარ დარეგისტრირებული? <a href  = '/login'> შესვლა </a> </p>
 
 </div>
 </body>
